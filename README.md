@@ -25,3 +25,25 @@ A simple web application to manage student details with user authentication usin
    ```bash
    git clone https://github.com/Santhosh-1218/Student-Management-System-Project.git
    cd Student-Management-System-Project
+
+ Create and activate a virtual environment:
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Linux/Mac
+source venv/bin/activate
+
+
+
+Install dependencies:
+pip install -r requirements.txt
+
+
+Run the application:
+python app.py
+
+
+Open your browser and visit:
+http://localhost:5000
+
+

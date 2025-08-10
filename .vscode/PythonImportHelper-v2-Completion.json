@@ -263,6 +263,14 @@
         "documentation": {}
     },
     {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
         "label": "firestore_adminCallTransformer",
         "kind": 6,
         "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
@@ -474,7 +482,7 @@
         "kind": 5,
         "importPath": "firebase_config",
         "description": "firebase_config",
-        "peekOfCode": "firebaseConfig = {\n    \"apiKey\": \"AIzaSyAu8c7xkKU5gUX7RMHAamqE9TdwjZq8XSA\",\n    \"authDomain\": \"studentmangementsystem-d4168.firebaseapp.com\",\n    \"projectId\": \"studentmangementsystem-d4168\",\n    \"storageBucket\": \"studentmangementsystem-d4168.appspot.com\",\n    \"messagingSenderId\": \"165780601657\",\n    \"appId\": \"1:165780601657:web:712111187baeefa1b0c6e8\",\n    \"measurementId\": \"G-9N58SQLD4V\",\n    \"databaseURL\": \"\"  # Only if using Firebase Realtime DB\n}",
+        "peekOfCode": "firebaseConfig = {\n    \"apiKey\": os.getenv(\"API_KEY\"),\n    \"authDomain\": os.getenv(\"AUTH_DOMAIN\"),\n    \"projectId\": os.getenv(\"PROJECT_ID\"),\n    \"storageBucket\": os.getenv(\"STORAGE_BUCKET\"),\n    \"messagingSenderId\": os.getenv(\"MESSAGING_SENDER_ID\"),\n    \"appId\": os.getenv(\"APP_ID\"),\n    \"measurementId\": os.getenv(\"MEASUREMENT_ID\"),\n    \"databaseURL\": os.getenv(\"DATABASE_URL\")\n}",
         "detail": "firebase_config",
         "documentation": {}
     },

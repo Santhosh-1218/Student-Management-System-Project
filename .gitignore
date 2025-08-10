@@ -1,6 +1,0 @@
-venv/
-_pycache_/
-.env
-*.pyc
-students.xlsx
-serviceAccountKey.json

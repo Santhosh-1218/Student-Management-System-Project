@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Add Student - Student Management System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      color: #000;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    body.dark-mode {
+      background-color: #121212;
+      color: #fff;
+    }
+    .container {
+      display: flex;
+    }
+    .dark-mode .sidebar {
+      background: #222831;
+      color: #eeeeee;
+    }
+    .dark-mode .sidebar .nav li a {
+      color: #eeeeee;
+    }
+    .dark-mode .sidebar .nav li a:hover {
+      background: #393e46;
+    }
+    .dark-mode .header {
+      background: #282c34;
+      color: #ddd;
+      box-shadow: none;
+    }
+    .dark-mode .search-bar input {
+      background: #3a3f47;
+      border: 1px solid #555;
+      color: #eee;
+    }
+    .dark-mode .search-bar button {
+      background: #222831;
+      color: #eee;
+    }
+    .dark-mode .search-bar button:hover {
+      background: #393e46;
+    }
+    .dark-mode .table-container {
+      background: #222831;
+      border-color: #444;
+      box-shadow: none;
+    }
+    .dark-mode table {
+      background: #222831;
+      color: #eee;
+    }
+    .dark-mode th {
+      background: #393e46;
+      color: #eee;
+    }
+    .dark-mode tr:nth-child(even) {
+      background: #2c2f33;
+    }
+    .sidebar {
+      width: 240px;
+      background: #2c3e50;
+      color: #ecf0f1;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    .sidebar h2 {
+      font-size: 20px;
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .sidebar .nav {
+      list-style: none;
+      padding: 0;
+    }
+    .sidebar .nav li {
+      margin: 15px 0;
+    }
+    .sidebar .nav li a {
+      color: #ecf0f1;
+      text-decoration: none;
+      display: block;
+      padding: 8px;
+      border-radius: 4px;
+      transition: background 0.3s;
+      cursor: pointer;
+    }
+    .sidebar .nav li a:hover {
+      background: #34495e;
+    }
+    .main {
+      flex: 1;
+      padding: 20px;
+      overflow-y: auto;
+      height: 100vh;
+    }
+    form {
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      max-width: 900px;
+    }
+    body.dark-mode form {
+      background-color: #1e1e1e;
+    }
+    .form-section {
+      margin-bottom: 30px;
+    }
+    .form-section h3 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+    .form-group {
+      margin-bottom: 15px;
+      width: 400px;
+    }
+    label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 8px 12px;
+      font-size: 14px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    body.dark-mode input,
+    body.dark-mode select,
+    body.dark-mode textarea {
+      background-color: #2a2a2a;
+      color: #fff;
+      border: 1px solid #555;
+    }
+    .btn-group {
+      display: flex;
+      gap: 10px;
+    }
+    .btn {
+      padding: 10px 16px;
+      border: none;
+      border-radius: 6px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+    .btn-save {
+      background-color: #007bff;
+      color: white;
+    }
+    .btn-clear {
+      background-color: #e0e0e0;
+      color: black;
+    }
+    .dark-mode-toggle {
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+<div class="container">
+  <aside class="sidebar">
+    <h2>STUDENT<br>MANAGEMENT<br>SYSTEM</h2>
+    <ul class="nav">
+      <li><a href="{{ url_for('dashboard') }}">📊 Dashboard</a></li>
+      <li><a href="{{ url_for('add_student') }}">➕ Add Student</a></li>
+      <li><a href="javascript:void(0);" onclick="toggleDarkMode()">🌓 Dark Mode</a></li>
+      <li><a href="{{ url_for('logout') }}">🚪 Logout</a></li>
+    </ul>
+  </aside>
+  <main class="main">
+    <h2>Add Student Details</h2>
+
+    <form method="POST" action="{{ url_for('add_student') }}" onsubmit="return checkBranchSelection()">
+      <!-- Student Info -->
+      <div class="form-section">
+        <h3>Student Details</h3>
+        <div class="form-group"><label for="name">Name</label><input type="text" id="name" name="name" required></div>
+        <div class="form-group"><label for="rollno">Roll No</label><input type="text" id="rollno" name="rollno" required></div>
+        <div class="form-group">
+          <label for="branch">Branch</label>
+          <select name="branch" id="branch" required>
+            <option value="">-- Select Branch --</option>
+            <option value="AIML">AIML</option>
+            <option value="CSD">CSD</option>
+            <option value="AID">AID</option>
+            <option value="CSC">CSC</option>
+            <option value="CAI">CAI</option>
+          </select>
+        </div>
+        <div class="form-group"><label for="student_mobile">Student Mobile No</label><input type="text" id="student_mobile" name="student_mobile"></div>
+        <div class="form-group"><label for="student_aadhar">Student Aadhar Number</label><input type="text" id="student_aadhar" name="student_aadhar"></div>
+        <div class="form-group"><label for="have_laptop">Have Laptop</label><input type="text" id="have_laptop" name="have_laptop"></div>
+        <div class="form-group"><label for="cast">Cast</label><input type="text" id="cast" name="cast"></div>
+        <div class="form-group"><label for="sub_cast">Sub Cast</label><input type="text" id="sub_cast" name="sub_cast"></div>
+        <div class="form-group"><label for="qualification">Qualification</label><input type="text" id="qualification" name="qualification"></div>
+      </div>
+
+      <!-- Father Info -->
+      <div class="form-section">
+        <h3>Father Details</h3>
+        <div class="form-group"><label for="father_name">Father Name</label><input type="text" id="father_name" name="father_name"></div>
+        <div class="form-group"><label for="father_aadhar">Father Aadhar Number</label><input type="text" id="father_aadhar" name="father_aadhar"></div>
+        <div class="form-group"><label for="father_qualification">Father Qualification</label><input type="text" id="father_qualification" name="father_qualification"></div>
+        <div class="form-group"><label for="father_occupation">Father Occupation</label><input type="text" id="father_occupation" name="father_occupation"></div>
+        <div class="form-group"><label for="father_phone">Father Phone No</label><input type="text" id="father_phone" name="father_phone"></div>
+      </div>
+
+      <!-- Mother Info -->
+      <div class="form-section">
+        <h3>Mother Details</h3>
+        <div class="form-group"><label for="mother_name">Mother Name</label><input type="text" id="mother_name" name="mother_name"></div>
+        <div class="form-group"><label for="mother_qualification">Mother Qualification</label><input type="text" id="mother_qualification" name="mother_qualification"></div>
+        <div class="form-group"><label for="mother_occupation">Mother Occupation</label><input type="text" id="mother_occupation" name="mother_occupation"></div>
+        <div class="form-group"><label for="mother_aadhar">Mother Aadhar No</label><input type="text" id="mother_aadhar" name="mother_aadhar"></div>
+        <div class="form-group"><label for="mother_phone">Mother Phone No</label><input type="text" id="mother_phone" name="mother_phone"></div>
+      </div>
+
+      <!-- Education -->
+      <div class="form-section">
+        <h3>Education</h3>
+        <div class="form-group"><label for="cet_hall_ticket">CET Hall Ticket No</label><input type="text" id="cet_hall_ticket" name="cet_hall_ticket"></div>
+        <div class="form-group"><label for="cet_rank">CET Rank</label><input type="text" id="cet_rank" name="cet_rank"></div>
+        <div class="form-group"><label for="jvd_id">JVD ID</label><input type="text" id="jvd_id" name="jvd_id"></div>
+        <div class="form-group"><label for="inter_hall_ticket">Inter Hall Ticket No</label><input type="text" id="inter_hall_ticket" name="inter_hall_ticket"></div>
+        <div class="form-group"><label for="inter_clg_name">Inter College Name</label><input type="text" id="inter_clg_name" name="inter_clg_name"></div>
+        <div class="form-group"><label for="inter_clg_location">Inter College Location</label><input type="text" id="inter_clg_location" name="inter_clg_location"></div>
+        <div class="form-group"><label for="inter_clg_district">Inter College District</label><input type="text" id="inter_clg_district" name="inter_clg_district"></div>
+        <div class="form-group"><label for="inter_percentage">Inter Percentage</label><input type="text" id="inter_percentage" name="inter_percentage"></div>
+        <div class="form-group"><label for="inter_pass_year">Inter Pass Year</label><input type="text" id="inter_pass_year" name="inter_pass_year"></div>
+        <div class="form-group"><label for="ssc_hall_ticket">SSC Hall Ticket No</label><input type="text" id="ssc_hall_ticket" name="ssc_hall_ticket"></div>
+        <div class="form-group"><label for="school_name">School Name</label><input type="text" id="school_name" name="school_name"></div>
+        <div class="form-group"><label for="school_location">School Location</label><input type="text" id="school_location" name="school_location"></div>
+        <div class="form-group"><label for="school_district">School District</label><input type="text" id="school_district" name="school_district"></div>
+        <div class="form-group"><label for="tenth_board_type">10th Board Type</label><input type="text" id="tenth_board_type" name="tenth_board_type"></div>
+        <div class="form-group"><label for="ssc_percentage">SSC Percentage</label><input type="text" id="ssc_percentage" name="ssc_percentage"></div>
+        <div class="form-group"><label for="ssc_pass_year">SSC Pass Year</label><input type="text" id="ssc_pass_year" name="ssc_pass_year"></div>
+      </div>
+
+      <!-- Address -->
+      <div class="form-section">
+        <h3>Address</h3>
+        <div class="form-group"><label for="religion">Religion</label><input type="text" id="religion" name="religion"></div>
+        <div class="form-group"><label for="door_no">Door No</label><input type="text" id="door_no" name="door_no"></div>
+        <div class="form-group"><label for="street">Street</label><input type="text" id="street" name="street"></div>
+        <div class="form-group"><label for="area_landmark">Area/Landmark</label><input type="text" id="area_landmark" name="area_landmark"></div>
+        <div class="form-group"><label for="village_name">Village Name</label><input type="text" id="village_name" name="village_name"></div>
+        <div class="form-group"><label for="district_name">District Name</label><input type="text" id="district_name" name="district_name"></div>
+        <div class="form-group"><label for="old_district_name">Old District Name</label><input type="text" id="old_district_name" name="old_district_name"></div>
+        <div class="form-group"><label for="state_name">State Name</label><input type="text" id="state_name" name="state_name"></div>
+        <div class="form-group"><label for="pin_code">Pin Code</label><input type="text" id="pin_code" name="pin_code"></div>
+      </div>
+
+      <div class="btn-group">
+        <button type="submit" class="btn btn-save">Save</button>
+        <button type="reset" class="btn btn-clear">Clear</button>
+      </div>
+    </form>
+  </main>
+</div>
+
+<script>
+  function toggleDarkMode() {
+    document.body.classList.toggle("dark-mode");
+    localStorage.setItem("darkMode", document.body.classList.contains("dark-mode"));
+  }
+  if (localStorage.getItem("darkMode") === "true") {
+    document.body.classList.add("dark-mode");
+  }
+
+  function checkBranchSelection() {
+    const branchSelect = document.getElementById('branch');
+    if (!branchSelect.value) {
+      alert("Please select a branch.");
+      branchSelect.focus();
+      return false;
+    }
+    return true;
+  }
+
+  document.querySelectorAll('input, select, textarea').forEach((el, index, fields) => {
+    el.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        const allFields = Array.from(document.querySelectorAll('input, select, textarea'));
+        const next = allFields[index + 1];
+        if (next) {
+          next.focus();
+        } else {
+          document.querySelector('.btn-save').focus();
+        }
+      }
+    });
+  });
+
+  document.getElementById('branch').addEventListener('change', function() {
+    console.log('Branch changed to:', this.value);
+  });
+</script>
+
+{% if success %}
+<script>
+  alert("Student added successfully!");
+  window.location.href = "{{ url_for('add_student') }}";
+</script>
+{% endif %}
+</body>
+</html>

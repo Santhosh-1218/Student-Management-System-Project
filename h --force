@@ -1,0 +1,17 @@
+[33mcommit 88efd097219947e7fd37817697434adba91857a8[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: boppudi50 <boppudisaanthosh404@gmail.com>
+Date:   Fri Jan 9 19:54:35 2026 +0530
+
+    Remove Firebase service account key from repo
+
+ serviceAccountKey.json | 13 [31m-------------[m
+ 1 file changed, 13 deletions(-)
+
+[33mcommit 0ca06de40e7b6526418197703e5f870c077c5182[m
+Author: boppudi50 <boppudisaanthosh404@gmail.com>
+Date:   Fri Jan 9 19:53:17 2026 +0530
+
+    edit
+
+ serviceAccountKey.json | 13 [32m+++++++++++++[m
+ 1 file changed, 13 insertions(+)

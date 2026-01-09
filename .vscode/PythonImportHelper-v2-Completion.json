@@ -1,0 +1,508 @@
+[
+    {
+        "label": "argparse",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "argparse",
+        "description": "argparse",
+        "detail": "argparse",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pathlib",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Tuple",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "BadZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "ZipFile",
+        "importPath": "zipfile",
+        "description": "zipfile",
+        "isExtraImport": true,
+        "detail": "zipfile",
+        "documentation": {}
+    },
+    {
+        "label": "warnings",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "warnings",
+        "description": "warnings",
+        "detail": "warnings",
+        "documentation": {}
+    },
+    {
+        "label": "Flask",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "render_template",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "request",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "url_for",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "session",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "flash",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "make_response",
+        "importPath": "flask",
+        "description": "flask",
+        "isExtraImport": true,
+        "detail": "flask",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "importPath": "firebase_config",
+        "description": "firebase_config",
+        "isExtraImport": true,
+        "detail": "firebase_config",
+        "documentation": {}
+    },
+    {
+        "label": "Workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "load_workbook",
+        "importPath": "openpyxl",
+        "description": "openpyxl",
+        "isExtraImport": true,
+        "detail": "openpyxl",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "pyrebase",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pyrebase",
+        "description": "pyrebase",
+        "detail": "pyrebase",
+        "documentation": {}
+    },
+    {
+        "label": "firestore_adminCallTransformer",
+        "kind": 6,
+        "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "class firestore_adminCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'bulk_delete_documents': ('name', 'collection_ids', 'namespace_ids', ),\n        'create_backup_schedule': ('parent', 'backup_schedule', ),\n        'create_database': ('parent', 'database', 'database_id', ),\n        'create_index': ('parent', 'index', ),\n        'create_user_creds': ('parent', 'user_creds', 'user_creds_id', ),\n        'delete_backup': ('name', ),\n        'delete_backup_schedule': ('name', ),",
+        "detail": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestore_adminCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "venv.Scripts.fixup_firestore_admin_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "firestoreCallTransformer",
+        "kind": 6,
+        "importPath": "venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "class firestoreCallTransformer(cst.CSTTransformer):\n    CTRL_PARAMS: Tuple[str] = ('retry', 'timeout', 'metadata')\n    METHOD_TO_PARAMS: Dict[str, Tuple[str]] = {\n        'batch_get_documents': ('database', 'documents', 'mask', 'transaction', 'new_transaction', 'read_time', ),\n        'batch_write': ('database', 'writes', 'labels', ),\n        'begin_transaction': ('database', 'options', ),\n        'commit': ('database', 'writes', 'transaction', ),\n        'create_document': ('parent', 'collection_id', 'document', 'document_id', 'mask', ),\n        'delete_document': ('name', 'current_document', ),\n        'get_document': ('name', 'mask', 'transaction', 'read_time', ),",
+        "detail": "venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "partition",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def partition(\n    predicate: Callable[[Any], bool],\n    iterator: Sequence[Any]\n) -> Tuple[List[Any], List[Any]]:\n    \"\"\"A stable, out-of-place partition.\"\"\"\n    results = ([], [])\n    for i in iterator:\n        results[int(predicate(i))].append(i)\n    # Returns trueList, falseList\n    return results[1], results[0]",
+        "detail": "venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "fix_files",
+        "kind": 2,
+        "importPath": "venv.Scripts.fixup_firestore_v1_keywords",
+        "description": "venv.Scripts.fixup_firestore_v1_keywords",
+        "peekOfCode": "def fix_files(\n    in_dir: pathlib.Path,\n    out_dir: pathlib.Path,\n    *,\n    transformer=firestoreCallTransformer(),\n):\n    \"\"\"Duplicate the input dir to the output dir, fixing file method calls.\n    Preconditions:\n    * in_dir is a real directory\n    * out_dir is a real, empty directory",
+        "detail": "venv.Scripts.fixup_firestore_v1_keywords",
+        "documentation": {}
+    },
+    {
+        "label": "extract_file",
+        "kind": 2,
+        "importPath": "venv.Scripts.vba_extract",
+        "description": "venv.Scripts.vba_extract",
+        "peekOfCode": "def extract_file(xlsm_zip, filename):\n    # Extract a single file from an Excel xlsm macro file.\n    data = xlsm_zip.read(\"xl/\" + filename)\n    # Write the data to a local file.\n    file = open(filename, \"wb\")\n    file.write(data)\n    file.close()\n# The VBA project file and project signature file we want to extract.\nvba_filename = \"vbaProject.bin\"\nvba_signature_filename = \"vbaProjectSignature.bin\"",
+        "detail": "venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "vba_filename",
+        "kind": 5,
+        "importPath": "venv.Scripts.vba_extract",
+        "description": "venv.Scripts.vba_extract",
+        "peekOfCode": "vba_filename = \"vbaProject.bin\"\nvba_signature_filename = \"vbaProjectSignature.bin\"\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\n        \"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n        \"xlsm macro file for insertion into an XlsxWriter file.\\n\"\n        \"If the macros are digitally signed, extracts also a vbaProjectSignature.bin \"",
+        "detail": "venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "vba_signature_filename",
+        "kind": 5,
+        "importPath": "venv.Scripts.vba_extract",
+        "description": "venv.Scripts.vba_extract",
+        "peekOfCode": "vba_signature_filename = \"vbaProjectSignature.bin\"\n# Get the xlsm file name from the commandline.\nif len(sys.argv) > 1:\n    xlsm_file = sys.argv[1]\nelse:\n    print(\n        \"\\nUtility to extract a vbaProject.bin binary from an Excel 2007+ \"\n        \"xlsm macro file for insertion into an XlsxWriter file.\\n\"\n        \"If the macros are digitally signed, extracts also a vbaProjectSignature.bin \"\n        \"file.\\n\"",
+        "detail": "venv.Scripts.vba_extract",
+        "documentation": {}
+    },
+    {
+        "label": "reset_excel_file",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def reset_excel_file():\n    \"\"\"Create a fresh Excel file with headers.\"\"\"\n    wb = Workbook()\n    ws = wb.active\n    ws.append(HEADERS)\n    wb.save(EXCEL_FILE)\ndef ensure_excel_file():\n    \"\"\"Ensure Excel file exists with headers.\"\"\"\n    if not os.path.exists(EXCEL_FILE):\n        print(f\"{EXCEL_FILE} not found. Creating a new one...\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "ensure_excel_file",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def ensure_excel_file():\n    \"\"\"Ensure Excel file exists with headers.\"\"\"\n    if not os.path.exists(EXCEL_FILE):\n        print(f\"{EXCEL_FILE} not found. Creating a new one...\")\n        reset_excel_file()\n# Ensure the Excel file exists on startup\nensure_excel_file()\n# ---------------- Routes ----------------\n@app.route(\"/\")\ndef index():",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def index():\n    return redirect(url_for(\"login\"))\n# LOGIN (Firebase auth)\n@app.route(\"/login\", methods=[\"GET\", \"POST\"])\ndef login():\n    if request.method == \"POST\":\n        email = request.form.get(\"email\")\n        password = request.form.get(\"password\")\n        try:\n            auth.sign_in_with_email_and_password(email, password)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def login():\n    if request.method == \"POST\":\n        email = request.form.get(\"email\")\n        password = request.form.get(\"password\")\n        try:\n            auth.sign_in_with_email_and_password(email, password)\n            session['user_email'] = email\n            return redirect(url_for(\"dashboard\"))\n        except Exception as e:\n            print(\"Login error:\", e)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "register",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def register():\n    if request.method == \"POST\":\n        email = request.form.get(\"email\")\n        password = request.form.get(\"password\")\n        confirm_password = request.form.get(\"confirm_password\")\n        if password != confirm_password:\n            return render_template(\"register.html\", error=\"Passwords do not match.\")\n        try:\n            auth.create_user_with_email_and_password(email, password)\n            return render_template(\"alert_redirect.html\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "forgot",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def forgot():\n    if request.method == \"POST\":\n        email = request.form.get(\"email\")\n        try:\n            auth.send_password_reset_email(email)\n            # Show alert and redirect to login\n            return render_template(\n                \"alert_redirect.html\",\n                message=\"Password reset link sent to your email.\",\n                redirect_url=url_for(\"login\")",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def dashboard():\n    if 'user_email' not in session:\n        return redirect(url_for(\"login\"))\n    ensure_excel_file()\n    students = []\n    if os.path.exists(EXCEL_FILE):\n        try:\n            wb = load_workbook(EXCEL_FILE)\n            ws = wb.active\n            for row in ws.iter_rows(min_row=2, values_only=True):",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "add_student",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def add_student():\n    if 'user_email' not in session:\n        return redirect(url_for(\"login\"))\n    ensure_excel_file()\n    if request.method == \"POST\":\n        try:\n            form_key_map = [\n                (\"name\", \"Name\"),\n                (\"rollno\", \"Roll No\"),\n                (\"branch\", \"Branch\"),",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "delete_student",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def delete_student(row_id):\n    if 'user_email' not in session:\n        return redirect(url_for(\"login\"))\n    ensure_excel_file()\n    try:\n        wb = load_workbook(EXCEL_FILE)\n        ws = wb.active\n        excel_row = row_id + 1\n        if 2 <= excel_row <= ws.max_row:\n            ws.delete_rows(excel_row)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "kind": 2,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "def logout():\n    session.clear()\n    return redirect(url_for(\"login\"))\n# ---------------- Run ----------------\nif __name__ == \"__main__\":\n    app.run(host=\"0.0.0.0\", port=5000, debug=True)",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "EXCEL_FILE",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "EXCEL_FILE = \"student_data.xlsx\"\napp = Flask(__name__)\napp.secret_key = \"your_secret_key_here\"  # Change for production\nHEADERS = [\n    \"Name\", \"Roll No\", \"Branch\", \"Student Mobile No\", \"Student Aadhar Number\",\n    \"Father Name\", \"Father Aadhar Number\", \"Father Qualification\", \"Father Occupation\", \"Father Phone No\",\n    \"Mother Name\", \"Mother Qualification\", \"Mother Occupation\", \"Mother Aadhar No\", \"Mother Phone No\",\n    \"Have Laptop\", \"Cast\", \"Sub Cast\", \"Qualification\",\n    \"CET Hall Ticket No\", \"CET Rank\", \"JVD ID\",\n    \"Inter Hall Ticket No\", \"Inter College Name\", \"Inter College Location\", \"Inter College District\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app = Flask(__name__)\napp.secret_key = \"your_secret_key_here\"  # Change for production\nHEADERS = [\n    \"Name\", \"Roll No\", \"Branch\", \"Student Mobile No\", \"Student Aadhar Number\",\n    \"Father Name\", \"Father Aadhar Number\", \"Father Qualification\", \"Father Occupation\", \"Father Phone No\",\n    \"Mother Name\", \"Mother Qualification\", \"Mother Occupation\", \"Mother Aadhar No\", \"Mother Phone No\",\n    \"Have Laptop\", \"Cast\", \"Sub Cast\", \"Qualification\",\n    \"CET Hall Ticket No\", \"CET Rank\", \"JVD ID\",\n    \"Inter Hall Ticket No\", \"Inter College Name\", \"Inter College Location\", \"Inter College District\",\n    \"Inter Percentage\", \"Inter Pass Year\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "app.secret_key",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "app.secret_key = \"your_secret_key_here\"  # Change for production\nHEADERS = [\n    \"Name\", \"Roll No\", \"Branch\", \"Student Mobile No\", \"Student Aadhar Number\",\n    \"Father Name\", \"Father Aadhar Number\", \"Father Qualification\", \"Father Occupation\", \"Father Phone No\",\n    \"Mother Name\", \"Mother Qualification\", \"Mother Occupation\", \"Mother Aadhar No\", \"Mother Phone No\",\n    \"Have Laptop\", \"Cast\", \"Sub Cast\", \"Qualification\",\n    \"CET Hall Ticket No\", \"CET Rank\", \"JVD ID\",\n    \"Inter Hall Ticket No\", \"Inter College Name\", \"Inter College Location\", \"Inter College District\",\n    \"Inter Percentage\", \"Inter Pass Year\",\n    \"SSC Hall Ticket No\", \"School Name\", \"School Location\", \"School District\", \"10th Board Type\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "HEADERS",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "HEADERS = [\n    \"Name\", \"Roll No\", \"Branch\", \"Student Mobile No\", \"Student Aadhar Number\",\n    \"Father Name\", \"Father Aadhar Number\", \"Father Qualification\", \"Father Occupation\", \"Father Phone No\",\n    \"Mother Name\", \"Mother Qualification\", \"Mother Occupation\", \"Mother Aadhar No\", \"Mother Phone No\",\n    \"Have Laptop\", \"Cast\", \"Sub Cast\", \"Qualification\",\n    \"CET Hall Ticket No\", \"CET Rank\", \"JVD ID\",\n    \"Inter Hall Ticket No\", \"Inter College Name\", \"Inter College Location\", \"Inter College District\",\n    \"Inter Percentage\", \"Inter Pass Year\",\n    \"SSC Hall Ticket No\", \"School Name\", \"School Location\", \"School District\", \"10th Board Type\",\n    \"SSC Percentage\", \"SSC Pass Year\",",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "firebaseConfig",
+        "kind": 5,
+        "importPath": "firebase_config",
+        "description": "firebase_config",
+        "peekOfCode": "firebaseConfig = {\n    \"apiKey\": \"AIzaSyAu8c7xkKU5gUX7RMHAamqE9TdwjZq8XSA\",\n    \"authDomain\": \"studentmangementsystem-d4168.firebaseapp.com\",\n    \"projectId\": \"studentmangementsystem-d4168\",\n    \"storageBucket\": \"studentmangementsystem-d4168.appspot.com\",\n    \"messagingSenderId\": \"165780601657\",\n    \"appId\": \"1:165780601657:web:712111187baeefa1b0c6e8\",\n    \"measurementId\": \"G-9N58SQLD4V\",\n    \"databaseURL\": \"\"  # Only if using Firebase Realtime DB\n}",
+        "detail": "firebase_config",
+        "documentation": {}
+    },
+    {
+        "label": "firebase",
+        "kind": 5,
+        "importPath": "firebase_config",
+        "description": "firebase_config",
+        "peekOfCode": "firebase = pyrebase.initialize_app(firebaseConfig)\nauth = firebase.auth()\nstorage = firebase.storage()",
+        "detail": "firebase_config",
+        "documentation": {}
+    },
+    {
+        "label": "auth",
+        "kind": 5,
+        "importPath": "firebase_config",
+        "description": "firebase_config",
+        "peekOfCode": "auth = firebase.auth()\nstorage = firebase.storage()",
+        "detail": "firebase_config",
+        "documentation": {}
+    },
+    {
+        "label": "storage",
+        "kind": 5,
+        "importPath": "firebase_config",
+        "description": "firebase_config",
+        "peekOfCode": "storage = firebase.storage()",
+        "detail": "firebase_config",
+        "documentation": {}
+    }
+]

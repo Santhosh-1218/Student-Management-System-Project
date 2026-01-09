@@ -2,6 +2,9 @@
 
 A simple web application to manage student details with user authentication using Firebase and data storage in Excel files. Built with Python and Flask.
 
+## live demo
+https://student-management-system-project.onrender.com/
+
 ## Features
 
 - User Registration and Login with Firebase Authentication  
